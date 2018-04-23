@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wshwsh.sample_quize_app_android.Videogame_Quiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question1"
+                style="@style/QuestionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) The PlayStation was created by...  " />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/Microsoft"
+                    style="RadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Microsoft"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Atari"
+                    style="RadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Atari" />
+
+                <RadioButton
+                    android:id="@+id/Sony"
+                    style="RadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sony" />
+
+                <RadioButton
+                    android:id="@+id/Apple"
+                    style="RadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Apple" />
+            </RadioGroup>
+
+
+            <View
+                style="@style/Divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question2"
+                style="@style/QuestionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) What is the name of the princess that Link save in each 'Legend of Zelda' Game?  " />
+
+            <EditText
+                android:id="@+id/question2anwser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Princess Name..." />
+
+            <View
+                style="@style/Divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question3"
+                style="@style/QuestionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3) Which of the below name is part of the pokemon universe?  " />
+
+            <CheckBox
+                android:id="@+id/Pikatchu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pikatchu"  style="RadioButtonStyle"/>
+
+            <CheckBox
+                android:id="@+id/Mario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mario"  style="RadioButtonStyle"/>
+
+            <CheckBox
+                android:id="@+id/Pulbasur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pulbasur"  style="RadioButtonStyle"/>
+
+            <CheckBox
+                android:id="@+id/Charmender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charmender"  style="RadioButtonStyle"/>
+
+            <View
+                style="@style/Divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question4"
+                style="@style/QuestionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4) What is the color of sonic the hedgehog?  " />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/Red"
+                    style="RadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Red" />
+
+                <RadioButton
+                    android:id="@+id/Blue"
+                    style="RadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Blue" />
+
+                <RadioButton
+                    android:id="@+id/Black"
+                    style="RadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Black" />
+
+                <RadioButton
+                    android:id="@+id/Orange"
+                    style="RadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Orange" />
+            </RadioGroup>
+
+
+            <View
+                style="@style/Divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quize Result" android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30sp"
+                android:onClick="viewAnwsers"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
