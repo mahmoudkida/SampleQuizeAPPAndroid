@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Sample-Quize-APP-Android</string>
+    <string name="question_1">1) The PlayStation was created by...</string>
+    <string name="question_1_a">Microsoft</string>
+    <string name="question_1_b">Atari</string>
+    <string name="question_1_c">Sony</string>
+    <string name="question_1_d">Apple</string>
+    <string name="question_2">2) What is the name of the princess that Link save in each \'Legend of Zelda\' Game?</string>
+    <string name="question_2_hint">Princess Name...</string>
+    <string name="question_3">3) Which of the below name is part of the pokemon universe?</string>
+    <string name="question_3_a">Pikatchu</string>
+    <string name="question_3_b">Mario</string>
+    <string name="question_3_c">Pulbasur</string>
+    <string name="question_3_d">Charmender</string>
+    <string name="question_4">4) What is the color of sonic the hedgehog?</string>
+    <string name="question_4_a">Red</string>
+    <string name="question_4_b">Blue</string>
+    <string name="question_4_c">Black</string>
+    <string name="question_4_d">Orange</string>
+    <string name="submit_button_text">Quize Result</string>
 </resources>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,13 +15,12 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
             <TextView
                 android:id="@+id/question1"
                 style="@style/QuestionTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1) The PlayStation was created by...  " />
+                android:text="@string/question_1" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -35,8 +32,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Microsoft"
-                    />
+                    android:text="@string/question_1_a" />
 
                 <RadioButton
                     android:id="@+id/Atari"
@@ -44,7 +40,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Atari" />
+                    android:text="@string/question_1_b" />
 
                 <RadioButton
                     android:id="@+id/Sony"
@@ -52,7 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Sony" />
+                    android:text="@string/question_1_c" />
 
                 <RadioButton
                     android:id="@+id/Apple"
@@ -60,30 +56,26 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Apple" />
+                    android:text="@string/question_1_d" />
             </RadioGroup>
-
 
             <View
                 style="@style/Divider"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
-
         </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
             <TextView
                 android:id="@+id/question2"
                 style="@style/QuestionTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2) What is the name of the princess that Link save in each 'Legend of Zelda' Game?  " />
+                android:text="@string/question_2" />
 
             <EditText
                 android:id="@+id/question2anwser"
@@ -91,15 +83,13 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Princess Name..." />
+                android:hint="@string/question_2_hint" />
 
             <View
                 style="@style/Divider"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
-
         </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -111,31 +101,35 @@
                 style="@style/QuestionTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="3) Which of the below name is part of the pokemon universe?  " />
+                android:text="@string/question_3" />
 
             <CheckBox
                 android:id="@+id/Pikatchu"
+                style="RadioButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pikatchu"  style="RadioButtonStyle"/>
+                android:text="@string/question_3_a" />
 
             <CheckBox
                 android:id="@+id/Mario"
+                style="RadioButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mario"  style="RadioButtonStyle"/>
+                android:text="@string/question_3_b" />
 
             <CheckBox
                 android:id="@+id/Pulbasur"
+                style="RadioButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pulbasur"  style="RadioButtonStyle"/>
+                android:text="@string/question_3_c" />
 
             <CheckBox
                 android:id="@+id/Charmender"
+                style="RadioButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Charmender"  style="RadioButtonStyle"/>
+                android:text="@string/question_3_d" />
 
             <View
                 style="@style/Divider"
@@ -143,21 +137,17 @@
                 android:layout_height="1dp" />
         </LinearLayout>
 
-
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <TextView
                 android:id="@+id/question4"
                 style="@style/QuestionTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4) What is the color of sonic the hedgehog?  " />
+                android:text="@string/question_4" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -169,7 +159,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Red" />
+                    android:text="@string/question_4_a" />
 
                 <RadioButton
                     android:id="@+id/Blue"
@@ -177,7 +167,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Blue" />
+                    android:text="@string/question_4_b" />
 
                 <RadioButton
                     android:id="@+id/Black"
@@ -185,7 +175,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Black" />
+                    android:text="@string/question_4_c" />
 
                 <RadioButton
                     android:id="@+id/Orange"
@@ -193,9 +183,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Orange" />
+                    android:text="@string/question_4_d" />
             </RadioGroup>
-
 
             <View
                 style="@style/Divider"
@@ -206,15 +195,11 @@
                 android:id="@+id/submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Quize Result" android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="30sp"
-                android:onClick="viewAnwsers"/>
-
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:onClick="viewAnswers"
+                android:text="@string/submit_button_text" />
         </LinearLayout>
-
-
-
-
     </LinearLayout>
 </ScrollView>
 
